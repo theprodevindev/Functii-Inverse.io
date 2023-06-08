@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-sclale=1.0">
+    <title>Funcții trigonometrice inverse și aplicații</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleImages() {
+            var images = document.getElementsByClassName("image");
+            for (var i = 0; i < images.length; i++) {
+                var image = images[i];
+                if (image.style.display === "none") {
+                    image.style.display = "block";
+                } else {
+                    image.style.display = "none";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="slider-thumb">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h1 class="animate-charcter"> Functii Inverse</h1>
+              </div>
+            </div>
+          </div>
+        <b><h2>1.Funcția arcsin</h2></b>
+        <p>
+            <b>Arcsin</b> (abreviere pentru arcsinus) este o funcție trigonometrică inversă care calculează unghiul ale cărui sinus este egal cu o valoare dată. Este denumită și funcția inversă a sinului și este simbolizată cu sin^(-1) sau asin.<br>
+            <br>
+            Definiția formală a arcsinului este următoarea: pentru orice valoare x din intervalul [-1, 1], arcsin(x) este unghiul α în intervalul [-π/2, π/2] pentru care sin(α) = x.<br>
+            <br>
+            Cu alte cuvinte, arcsin(x) este unghiul ale cărui sinus este egal cu x. Rezultatul este exprimat în radiani.<br>
+            <br>
+            Este important de menționat că funcția arcsin are un domeniu de definiție specific, și anume [-1, 1], deoarece sin(x) este definit doar în acest interval.<br>
+            <br>
+            Funcția arcsin(x), denumită și sinus invers, este definită pe intervalul [-1, 1] și asociază fiecărui număr din acest interval un unghi al cărui sinus este egal cu acel număr. Proprietățile funcției arcsin(x) includ:<br>
+            <br>
+            <b>Domeniul de definiție:</b> x aparține intervalului [-1, 1].<br>
+            <br>
+            <b>Codomeniul:</b> Valorile rezultate sunt unghiuri, astfel încât codomeniul este intervalul [-π/2, π/2].<br>
+            <br>
+            <b>Funcția este impară:</b> arcsin(-x) = -arcsin(x).<br>
+            <br>
+            <b>Funcția este inversa funcției sin(x):</b> sin(arcsin(x)) = x pentru orice x din domeniul de definiție al arcsin(x).<br>
+            <br>
+            <img src="">
+        </p>
+        <b> <h2>2.Funcția arccos</h2></b>
+        <p><b>Arccos </b>(abreviere pentru arccosinus) este o funcție trigonometrică inversă care calculează unghiul ale cărui cosinus este egal cu o valoare dată. Este denumită și funcția inversă a cosinusului și este simbolizată cu cos^(-1) sau acos.<br>
+            <br>
+            Definiția formală a arccosinusului este următoarea: pentru orice valoare x din intervalul [-1, 1], arccos(x) este unghiul α în intervalul [0, π] pentru care cos(α) = x.<br>
+            <br>
+            Cu alte cuvinte, arccos(x) este unghiul ale cărui cosinus este egal cu x. Rezultatul este exprimat în radiani.<br>
+            <br>
+            Este important de menționat că funcția arccos are un domeniu de definiție specific, și anume [-1, 1], deoarece cos(x) este definit doar în acest interval.<br>
+            <br>
+            Funcția arccos(x), denumită și cosinus invers, are proprietăți similare funcției arcsin(x). Acestea includ:<br>
+            <br>
+            <b>Domeniul de definiție:</b> x aparține intervalului [-1, 1].<br>
+            <br>
+            <b>Codomeniul:</b> Valorile rezultate sunt unghiuri, astfel încât codomeniul este intervalul [0, π].<br>
+            <br>
+            <b>uncția este pară:</b>F arccos(-x) = arccos(x).<br>
+            <br>
+            <b>Funcția este inversa funcției cos(x):</b> cos(arccos(x)) = x pentru orice x din domeniul de definiție al arccos(x). <br>
+            <br>
+        </p>   
+
+        <b><h2>3.Funcția arctan</h2></b>
+        <p><b>Arctan</b> (abreviere pentru arctangentă) este o funcție trigonometrică inversă care calculează unghiul ale cărui tangenta este egală cu o valoare dată. Este denumită și funcția inversă a tangentei și este simbolizată cu tan^(-1) sau atan.<br><br>
+
+            Definiția formală a arctangentei este următoarea: pentru orice valoare x, arctan(x) este unghiul α în intervalul (-π/2, π/2) pentru care tan(α) = x.<br><br>
+            
+            Cu alte cuvinte, arctan(x) este unghiul ale cărui tangenta este egală cu x. Rezultatul este exprimat în radiani.<br><br>
+            
+            Este important de menționat că funcția arctan nu are restricții de domeniu, ceea ce înseamnă că poate fi aplicată oricărei valori reale x.<br><br>
+            Funcția arctg(x), denumită și tangentă inversă, are următoarele proprietăți:<br><br>
+
+           <b> Domeniul de definiție:</b> x aparține întregul interval real (-∞, +∞).<br><br>
+           <b>Codomeniul:</b> Valorile rezultate sunt unghiuri, astfel încât codomeniul este intervalul (-π/2, π/2).<br><br>
+           <b>Funcția este impară:</b> arctg(-x) = -arctg(x).<br><br>
+           <b> Funcția este inversa funcției tg(x):</b> tg(arctg(x)) = x pentru orice x din domeniul de definiție al arctg(x). <br><br>
+
+        </p>
+
+        <b><h2>4.Funcția arcctg</h2></b>
+        <p><b>Arcotangenta</b> (arccotangenta) este o funcție trigonometrică inversă, notată ca "arccot(x)" sau "cot^(-1)(x)", care atribuie unghiurilor "y" în intervalul "[0, pi]" sau "(-pi, 0]" valorile corespunzătoare ale lui "x" în intervalul "(-infinit, infinit)". <br><br>
+            Definiția sa matematică este dată de relația:<br><br>
+
+            "arccot(x) = cot^(-1)(x) = tan^(-1)(1/x)"<br><br>
+            
+            Aceasta reprezintă unghiul "y" pentru care "x = cot(y)", unde "cot(y)" este funcția cotangentă, definită ca raportul dintre cateta adiacentă și cateta opusă a unui unghi într-un triunghi dreptunghic.<br><br>
+            
+            Funcția arccotangentă este periodică cu perioada "pi". Astfel, pentru orice "x", există infinite valori de "y" care satisfac relația "x = cot(y)". Intervalul specificat în definiție ("[0, pi]" sau "(-pi, 0]") <br><br>
+            indică valoarea principală a arccotangentei, adică valoarea din intervalul respectiv pentru care "y" se află.<br><br>
+            
+            Funcția arccotangentă este utilizată într-o varietate de domenii matematice și științifice, inclusiv în geometrie, analiză matematică, <br><br>
+
+            calcul numeric și teoria circuitelor electrice, pentru rezolvarea problemelor și expresiilor care implică relații trigonometrice inverse. <br><br>
+            Funcția arcctg(x), denumită și cotangentă inversă, are proprietățile următoare:
+
+            <b> Domeniul de definiție:</b> x aparține întregul interval real (-∞, +∞).<br><br>
+            <b>Codomeniul:</b> Valorile rezultate sunt unghiuri, astfel încât codomeniul este intervalul (0, π).<br><br>
+            <b>Funcția este impară:</b> arcctg(-x) = -arcctg(x).<br><br>
+            <b>Funcția este inversa funcției ctg(x):</b> ctg(arcctg(x)) = x pentru orice x din domeniul de definiție al arcctg(x). <br><br> 
+
+            </p>
+
+        <b><h2>5.Aplicatii</h2></b>x
+        <div class="buton">
+        <button onclick="toggleImages()">Ascunde/Afișează Imaginile</button>
+        </div>
+        <div class="poze">
+            <img class="image" src="1.png"><br>
+            <img class="image" src="2.png"><br>
+            <img class="image" src="3.png"><br>
+        </div>
+        <b><h2>6.Aplicații în viața de zi cu zi</h2></b>
+        <p>Funcțiile trigonometrice inverse și aplicațiile lor pot fi de ajutor într-o varietate de situații din viața de zi cu zi.Câteva exemple ar fi:<br><br> 
+
+            Găsirea unghiurilor: Funcțiile trigonometrice inverse, cum ar fi arcsin, arccos și arctan, sunt utilizate pentru a găsi unghiurile dintr-un triunghi. <br><br> 
+            Aceasta este utilă atunci când știm lungimile laturilor și vrem să determinăm valorile unghiurilor.<br><br> 
+            
+            Calcularea distanțelor: În navigație sau în probleme legate de măsurători de teren, putem folosi funcțiile trigonometrice inverse pentru a calcula distanțe inaccesibile direct. <br><br> 
+            De exemplu, putem utiliza arctan pentru a determina înălțimea unui turn măsurând unghiul format între sol și vârful turnului și știind distanța de la punctul de observație la turn.<br><br> 
+            
+            Proiectarea în construcții: Funcțiile trigonometrice inverse sunt utilizate în proiectarea și construcția clădirilor și structurilor.<br><br> 
+             Ele permit inginerilor să calculeze unghiuri și dimensiuni necesare pentru a crea structuri stabile și sigure. <br><br> 
+            Calcularea unghiurilor de lansare: În domeniul fizicii și al sporturilor care implică aruncări sau trageri, funcțiile trigonometrice inverse sunt utile pentru a calcula unghiurile optime de lansare. <br><br> 
+            De exemplu, în baschet, arcul de cerc al coșului și înălțimea la care se află coșul pot fi luate în considerare pentru a determina unghiul și forța necesare pentru a înscrie un coș.<br><br> 
+            
+            Calcularea valorilor necunoscute: Funcțiile trigonometrice inverse sunt folosite pentru a găsi valori necunoscute în ecuații trigonometrice.<br><br> 
+             Ele pot fi aplicate în rezolvarea problemelor legate de electricitate, mecanică și alte domenii.<br><br> 
+            
+            Procesarea semnalelor: În domeniul telecomunicațiilor și al procesării semnalelor, funcțiile trigonometrice inverse sunt folosite pentru a analiza și sintetiza semnale.<br><br> 
+             Ele ajută la determinarea frecvențelor și fazelor semnalelor și sunt utile în compresia și decompresia datelor.<br><br> 
+            
+            Acestea sunt doar câteva exemple de utilizări ale funcțiilor trigonometrice inverse în viața de zi cu zi.<br><br> 
+            Aceste funcții și aplicațiile lor au un rol important în rezolvarea problemelor practice și în înțelegerea relațiilor geometrice și trigonometrice.<br><br> 
+        </p>
+        
+    </div>        
+</body>
+</html>
